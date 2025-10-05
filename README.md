@@ -1,4 +1,5 @@
 # 🛶 Selección Óptima de Remeros para Competición mediante Técnicas de Optimización Multiobjetivo
+![Fórmula](https://render.githubusercontent.com/render/math?math=Z%20%3D%20w_1%20%5Ccdot%20%5Ctext%7BFuerza%7D%20-%20w_2%20%5Ccdot%20%5Ctext%7BPeso%7D%20-%20w_3%20%5Ccdot%20D%20%2B%20w_4%20%5Ccdot%20%5Ctext%7BEdad%7D)
 
 Este repositorio contiene los archivos en **Python** y **Jupyter Notebook** utilizados en el modelo de optimización aplicado a la conformación de equipos de remo competitivo, basado en **Programación Lineal (PL)** y **Programación Entera (PE)**.
 
