@@ -113,3 +113,6 @@ Instalación rápida:
 
 ```bash
 pip install pulp numpy matplotlib
+
+
+Ejecutar cada celda del Notebook en orden, dado que las variables creadas en un principio son utilizadas por las siguientes celdas. 
