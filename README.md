@@ -1,5 +1,4 @@
 # 🛶 Selección Óptima de Remeros para Competición mediante Técnicas de Optimización Multiobjetivo
-![Fórmula](https://render.githubusercontent.com/render/math?math=Z%20%3D%20w_1%20%5Ccdot%20%5Ctext%7BFuerza%7D%20-%20w_2%20%5Ccdot%20%5Ctext%7BPeso%7D%20-%20w_3%20%5Ccdot%20D%20%2B%20w_4%20%5Ccdot%20%5Ctext%7BEdad%7D)
 
 Este repositorio contiene los archivos en **Python** y **Jupyter Notebook** utilizados en el modelo de optimización aplicado a la conformación de equipos de remo competitivo, basado en **Programación Lineal (PL)** y **Programación Entera (PE)**.
 
@@ -42,9 +41,9 @@ De este modo, el modelo mantiene la máxima fuerza alcanzada y, dentro de esa so
 ### 2️⃣ Enfoque de Suma Ponderada
 En este caso, las distintas funciones objetivo se combinan en una sola ecuación escalar ponderada:
 
-\[
-Z = w_1 \cdot \text{Fuerza} - w_2 \cdot \text{Peso} - w_3 \cdot D + w_4 \cdot \text{Edad}
-\]
+<p align="center">
+  <img src="https://latex.codecogs.com/png.image?\dpi{120}Z=w_1\cdot\text{Fuerza}-w_2\cdot\text{Peso}-w_3\cdot D+w_4\cdot\text{Edad}" alt="Fórmula"/>
+</p>
 
 Donde los pesos utilizados son:
 - \( w_1 = 0.2 \) → Maximizar fuerza total  
